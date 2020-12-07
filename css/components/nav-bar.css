@@ -1,0 +1,19 @@
+.nav {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #f0f0fa;
+  padding: 15px 50px;
+
+  /* 박스크기 그대로 해줄 때 (padding에 따라서 커지지말아줘!) */
+  box-sizing: border-box;
+
+  border-top: 1px solid rgba(129, 124, 124, 0.3);
+}
+.nav__list {
+  display: flex;
+  justify-content: space-between;
+}
+.nav__link {
+  color: #2e363e;
+}
